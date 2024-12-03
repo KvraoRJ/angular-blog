@@ -3,7 +3,9 @@
     <img src="{{ foto }}" alt="" height="100" >
   </div>
   <div class="big-card_titulo">
-    <h2><a href="">{{ titulo }}</a></h2>
+    <!-- <h2><a href="/content/{{Id}}">{{ titulo }}</a></h2> -->
+    <h2><a [routerLink]="['content',Id]" routerLinkActive="active" ariaCurrentWhenActive="page">{{ titulo }}</a></h2>
+
   </div>
   <div class="big-card_descricao">
     <p>{{ descricao }}</p>

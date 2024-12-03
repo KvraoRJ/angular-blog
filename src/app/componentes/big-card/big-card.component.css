@@ -23,3 +23,7 @@
   min-width: 600px;
   height: 300px;
 }
+a {
+  cursor: pointer;
+  text-decoration: none;
+}

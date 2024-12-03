@@ -4,7 +4,8 @@
       <img src="{{ foto }}" alt="" height="100" >
     </div>
     <div class="small-card_titulo">
-      <p><a href="">{{ titulo }}</a></p>
+      <!-- <p><a href="content/{{Id}}">{{ titulo }}</a></p> -->
+      <p><a [routerLink]="['content',Id]" routerLinkActive="active" ariaCurrentWhenActive="page">{{ titulo }}</a></p>
     </div>
   </div>
   <div class="container_small-card-separator">

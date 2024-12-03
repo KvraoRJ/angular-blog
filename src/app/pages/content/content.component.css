@@ -1,0 +1,29 @@
+.container-content{
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content_cover > img {
+  min-width: 500px;
+  width: 500px;
+  box-shadow: 5px 5px 5px 0px rgba(203,203,203,0.75);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(203,203,203,0.75);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(203,203,203,0.75);
+}
+
+.content_description > p{
+  margin-top: 15px;
+  color:gray
+}
+
+a {
+  cursor: pointer;
+  color: #666666;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+}
