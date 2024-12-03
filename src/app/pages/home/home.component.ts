@@ -8,6 +8,4 @@ import { SmallCardComponent } from "../../componentes/small-card/small-card.comp
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
-export class HomeComponent {
-
-}
+export class HomeComponent {}
